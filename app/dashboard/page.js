@@ -159,6 +159,8 @@ export default async function Dashboard() {
           </div>
         </div>
 
+        <div className="divider before:bg-neutral after:bg-neutral"></div>
+
         {/* Kit 2: Marketing Suite */}
         <div className="space-y-4">
           <h2 className="text-2xl font-bold">🚀 Kit 2: Marketing Suite</h2>
@@ -179,6 +181,8 @@ export default async function Dashboard() {
             ))}
           </div>
         </div>
+
+        <div className="divider before:bg-neutral after:bg-neutral"></div>
 
         {/* Kit 3: BrandSprint */}
         <div className="space-y-4">
