@@ -135,7 +135,10 @@ export default async function Dashboard() {
             <h1 className="text-3xl md:text-4xl font-extrabold">🍺 AI Biz Brewery</h1>
             <p className="text-base-content/70 mt-2">Brewing Your Business Success</p>
           </div>
-          <ButtonAccount />
+          <div className="flex items-center gap-4">
+            <Link href="/blog" className="btn btn-outline btn-sm">📝 Blog</Link>
+            <ButtonAccount />
+          </div>
         </div>
 
         {/* Kit 1: AI Profit Engine */}
