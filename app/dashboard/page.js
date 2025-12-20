@@ -147,7 +147,7 @@ export default async function Dashboard() {
               <Link
                 key={tool.id}
                 href={tool.href}
-                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg"
+                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg border-2 border-base-300 hover:border-primary"
               >
                 <div className="card-body">
                   <div className="text-4xl mb-2">{tool.icon}</div>
@@ -168,7 +168,7 @@ export default async function Dashboard() {
               <Link
                 key={tool.id}
                 href={tool.href}
-                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg"
+                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg border-2 border-base-300 hover:border-primary"
               >
                 <div className="card-body">
                   <div className="text-4xl mb-2">{tool.icon}</div>
@@ -189,7 +189,7 @@ export default async function Dashboard() {
               <Link
                 key={tool.id}
                 href={tool.href}
-                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg"
+                className="card bg-base-200 hover:bg-base-300 transition-all duration-200 hover:shadow-lg border-2 border-base-300 hover:border-primary"
               >
                 <div className="card-body">
                   <div className="text-4xl mb-2">{tool.icon}</div>
