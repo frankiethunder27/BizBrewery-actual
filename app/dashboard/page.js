@@ -160,6 +160,11 @@ export default async function Dashboard() {
               </Link>
             ))}
           </div>
+          {/* How it works - Kit 1 */}
+          <div className="mt-6 p-6 bg-base-300 rounded-xl border border-base-content/10">
+            <h4 className="font-bold text-lg mb-3">💡 How it works</h4>
+            <p className="text-base-content/70">[Your copy here]</p>
+          </div>
         </div>
 
         <div className="divider before:bg-neutral after:bg-neutral"></div>
@@ -183,6 +188,11 @@ export default async function Dashboard() {
               </Link>
             ))}
           </div>
+          {/* How it works - Kit 2 */}
+          <div className="mt-6 p-6 bg-base-300 rounded-xl border border-base-content/10">
+            <h4 className="font-bold text-lg mb-3">💡 How it works</h4>
+            <p className="text-base-content/70">[Your copy here]</p>
+          </div>
         </div>
 
         <div className="divider before:bg-neutral after:bg-neutral"></div>
@@ -205,6 +215,11 @@ export default async function Dashboard() {
                 </div>
               </Link>
             ))}
+          </div>
+          {/* How it works - Kit 3 */}
+          <div className="mt-6 p-6 bg-base-300 rounded-xl border border-base-content/10">
+            <h4 className="font-bold text-lg mb-3">💡 How it works</h4>
+            <p className="text-base-content/70">[Your copy here]</p>
           </div>
         </div>
       </section>
