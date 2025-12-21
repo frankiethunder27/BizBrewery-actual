@@ -3,12 +3,13 @@
   themes: light --default;
 }
 
-/* AI Biz Brewery Custom Theme */
+/* BizBrewery Custom Theme - Lime Green & Blue */
 :root {
-  --brewery-gold: #D4A03D;
-  --brewery-amber: #B8860B;
-  --brewery-dark: #1a1a2e;
-  --brewery-copper: #B87333;
+  --brew-lime: #84CC16;
+  --brew-green: #65A30D;
+  --brew-blue: #0EA5E9;
+  --brew-dark: #0F172A;
+  --brew-teal: #14B8A6;
 }
 
 @theme {
