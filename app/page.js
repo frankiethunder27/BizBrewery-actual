@@ -106,7 +106,7 @@ export default function Page() {
 
             <div className="grid md:grid-cols-3 gap-8">
               {kits.map((kit) => (
-                <div key={kit.name} className="bg-slate-800 rounded-2xl p-8 border border-slate-700 hover:border-lime-500/50 hover:shadow-xl hover:shadow-lime-500/10 transition-all">
+                <div key={kit.name} className="bg-slate-800 rounded-2xl p-8 border border-slate-700 shadow-2xl shadow-black/50 hover:border-lime-500/50 hover:shadow-lime-500/20 transition-all">
                   <div className="text-5xl mb-4">{kit.icon}</div>
                   <h3 className="text-xl font-bold text-white mb-2">{kit.name}</h3>
                   <p className="text-slate-400">{kit.description}</p>
@@ -131,7 +131,7 @@ export default function Page() {
             </h2>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-4">
               {tools.map((tool) => (
-                <div key={tool.name} className="bg-slate-800 rounded-xl p-4 text-center border border-slate-700 hover:border-lime-500 hover:shadow-lg hover:shadow-lime-500/10 transition-all cursor-pointer group">
+                <div key={tool.name} className="bg-slate-800 rounded-xl p-4 text-center border border-slate-700 shadow-xl shadow-black/40 hover:border-lime-500 hover:shadow-lime-500/20 transition-all cursor-pointer group">
                   <div className="text-3xl mb-2 group-hover:scale-110 transition-transform">{tool.icon}</div>
                   <div className="text-sm font-medium text-white">{tool.name}</div>
                   <div className="text-xs text-slate-500 mt-1">{tool.kit}</div>
@@ -155,7 +155,7 @@ export default function Page() {
               {config.stripe.plans.map((plan, index) => (
                 <div 
                   key={plan.name}
-                  className={`rounded-2xl p-8 ${plan.isFeatured ? 'bg-gradient-to-br from-lime-500 to-sky-500 scale-105 shadow-2xl shadow-lime-500/20' : 'bg-slate-800 border border-slate-700'}`}
+                  className={`rounded-2xl p-8 ${plan.isFeatured ? 'bg-gradient-to-br from-lime-500 to-sky-500 scale-105 shadow-2xl shadow-lime-500/30' : 'bg-slate-800 border border-slate-700 shadow-2xl shadow-black/50'}`}
                 >
                   {plan.isFeatured && (
                     <div className="text-xs font-bold uppercase tracking-wider mb-4 text-slate-900 bg-white inline-block px-3 py-1 rounded-full">
