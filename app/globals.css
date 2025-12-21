@@ -1,6 +1,14 @@
 @import "tailwindcss";
 @plugin "daisyui" {
-  themes: light, dark, cyberpunk --default, night, luxury, dracula, synthwave;
+  themes: light --default;
+}
+
+/* AI Biz Brewery Custom Theme */
+:root {
+  --brewery-gold: #D4A03D;
+  --brewery-amber: #B8860B;
+  --brewery-dark: #1a1a2e;
+  --brewery-copper: #B87333;
 }
 
 @theme {
