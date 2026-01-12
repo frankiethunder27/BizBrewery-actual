@@ -47,7 +47,7 @@ export default function Page() {
       {/* Header */}
       <header className="p-4 flex justify-between items-center max-w-7xl mx-auto">
         <Link href="/" className="flex items-center gap-2">
-          <span className="text-3xl">⚗️</span>
+          <img src="/app/icon.png" alt="AI Biz Brewery Logo" className="w-8 h-8 rounded-md" />
           <span className="font-bold text-xl text-white">{config.appName}</span>
         </Link>
         <nav className="flex items-center gap-6">
